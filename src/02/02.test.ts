@@ -11,7 +11,7 @@ interface Man_ {
 
 describe('练习题02', () => {
   it('实例化', () => {
-    function Man(name: string, age: number) {
+    function Man(this: any, name: string, age: number) {
       this.name = name
       this.age = age
       this.sayHello = () => { console.log(`Hello, my name is ${this.name}`) }
