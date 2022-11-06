@@ -6,3 +6,5 @@
 2. [new一个对象的过程，实现一个简单的new方法](./src/02/index.ts)
 3. [实现 apply, call, bind](./src/02/index.ts)
 4. [实现 Promise.all](./src/04/index.ts)
+6. [实现 debounce、throttle](./src/06/index.ts)
+7. [实现 deepEqual](./src/07/index.ts)
