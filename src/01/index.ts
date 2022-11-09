@@ -1,6 +1,6 @@
 /* eslint-disable no-console */
 class PlayBoy {
-  queue: ((...args: any) => any)[] = []
+  queue: ((...args: any[]) => any)[] = []
 
   constructor(public name: string) {
     setTimeout(
