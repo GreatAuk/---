@@ -8,3 +8,4 @@
 4. [实现 Promise.all](./src/04/index.ts)
 6. [实现 debounce、throttle](./src/06/index.ts)
 7. [实现 deepEqual](./src/07/index.ts)
+7. [实现 deepClone](./src/08/index.ts)
