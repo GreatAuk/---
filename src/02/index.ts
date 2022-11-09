@@ -1,9 +1,10 @@
 type MyConstruct = (...args: any) => any
 
 function myNew(construct: MyConstruct, ...args: any) {
-  const obj = Object.create(Object.prototype)
-  construct.call(obj, ...args)
-  return obj
+  // 链接到原型
+  const obj = Object.create(construct.prototype)
+  const res = construct.call(obj, ...args)
+  return typeof res === 'object' ? res : obj
 }
 
 export {
